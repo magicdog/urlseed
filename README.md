@@ -1,9 +1,6 @@
-urlfilter
-=========
+1\ use scrapy to download the page info
+2\ use this project to extract news main page address 
+3\ download the news main page
+4\ get the most common news url in the news page.
 
-using bloom, bdb, tair  to filter url.
 
-
-the bdb and bloomfilter is copied from heritrix, and the tair depends on tair_client and tair servers.
-http://tair.taobao.org/
-http://code.taobao.org/p/tair-client-java/src/
